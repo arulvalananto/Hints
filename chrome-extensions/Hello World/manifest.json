@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Extension for hello world",
+    "description": "Print the hello world in popup",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "hello_world_extension.png"
+    }
+}

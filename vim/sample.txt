@@ -1,0 +1,16 @@
+To create new file like this, please follow the below steps:
+
+1. enter `vim` in the command line
+2. It will navigate you to command mode where type `edit filename.fileextensionname`
+3. Once file created, press `i` key to change command mode into insert mode where you can type whatever you want.
+4. To save this file, press `Esc` key and in the bottom vim change from `INSERT` mode to `COMMAND` mode.
+5. After that, type `:w` and voila you made it. You have successfully made you first file with vim.
+6. To close this file, type `:q`.
+7. To do both save and close the file by single command, type `:wq`.
+8. To edit this file again, `vim filename.withextension`
+9. That's it. You have learnt everything about edit and create a file using vim
+10. To close file without change or save, type `:q!`
+11. To copy the word in the vim editor, press `esc` if you are in the insert mode and press `v` key to go visual mode and select the word or sentence based on your need and hit `y` for copy or hit `d` for cut. Once you copied or cut the word or sentence, vim will change to command mode where hit `p` to paste it.
+12. To undo action, To do you have to be in command mode and hit `u` key.
+13. To redo action, To do you have to be in command mode and hit `CTRL + r` combination.
+
