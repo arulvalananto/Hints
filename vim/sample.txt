@@ -14,3 +14,9 @@ To create new file like this, please follow the below steps:
 12. To undo action, To do you have to be in command mode and hit `u` key.
 13. To redo action, To do you have to be in command mode and hit `CTRL + r` combination.
 
+
+Extra shortcuts
+ * dd - delete entire line
+ * 0 - move to end of the line
+ * 12G - go to 12th line in the file (Just replace 12 with your appropriate page number)
+
