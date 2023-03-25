@@ -1,0 +1,21 @@
+# connecting to particular server through ssh (traditional method like password but not secure) 
+ssh root@146.190.74.244
+
+# create secure ssh connection using private-public key method
+
+# first create an private-public keypair by below command. It will create private-public key under `.ssh` folder and the name will be like `id_rsa` -> private key and `id_rsa.pub` -> public key. If you have many private and public keypair the name will differ
+ssh-keygen -t rsa
+
+# once create your private public key pair copy the public key and paste it in server's `.ssh/authorized_keys` file
+* To do copy, `cat id_rsa.pub` and copy the content
+* To paste it, `vim .ssh/authorized_keys` in server and paste it.
+
+# Voila.That's it
+
+# when you try to access the server for the next time, it won't ask you any password
+
+ssh root@146.190.74.244
+
+# if you have a multiple public-private keypair, you have to implicitly give the filename when you get into the server. Check the below command
+
+ssh -i .ssh/id_rsa root@146.190.74.244

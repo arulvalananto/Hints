@@ -1,0 +1,16 @@
+  796  sudo passwd tom
+  803  sudo groupadd devops
+  810  sudo delgroup tom
+  817  sudo useradd -G devops nicole
+  821  sudo delgroup nicole
+  823  sudo delgroup nicoleclear
+  833  sudo chown tom:devops textfiles
+  843  sudo chown tom devops config.yaml
+  844  sudo chown tom:devops config.yaml
+  851  sudo chmod -x textfiles
+  854  sudo chmod +x textfiles
+  858  sudo chmod g-w config.yaml
+  860  sudo chmod g+w config.yaml
+  862  sudo chmod g+wx config.yaml
+  864  sudo chmod g+rw config.yaml
+  866  sudo chmod g-x config.yaml

@@ -1,0 +1,4 @@
+  975  export APP_ENV=development
+  976  printenv | grep APP
+  977  unset APP_ENV
+  978  printenv | grep APP
