@@ -19,3 +19,10 @@ ssh root@146.190.74.244
 # if you have a multiple public-private keypair, you have to implicitly give the filename when you get into the server. Check the below command
 
 ssh -i .ssh/id_rsa root@146.190.74.244
+
+
+# copy one file from your machine to remote server
+
+scp [your-server-file-location] [remote-server-location with filelocation]
+
+scp test.sh root@159.19.18.1:/root
